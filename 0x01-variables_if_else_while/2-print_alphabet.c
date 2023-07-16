@@ -1,18 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - Print the alphabetic
- * Return: Always (Success)
+ * main - Entry piont
+ * Return: Always 0 (Success)
  */
 
 int main(void)
-
 {
 	char c;
 
-	for (c = 'a'; c <= 'z'; c++);
-	putchar(c);
-        putchar('\n');
+	c = 'a';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	putchar('\n');
 	return (0);
-
 }
